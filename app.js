@@ -8,8 +8,6 @@ var app = express();
 let userRouter= require('./routes/users.routes');
 let deptRouter= require('./routes/dept.routes');
 
-
-
 app.use(logger('dev'));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
